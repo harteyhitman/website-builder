@@ -1,0 +1,82 @@
+@media (max-width: 900px) {
+   *{
+    // border: 1px solid red;
+    text-wrap: wrap;
+   }
+
+   .tools {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+   }
+   .home-cont .home{
+    display: grid;
+    grid-template-columns: auto auto;
+   }
+   .hero-section .hero{
+    flex-direction: column;
+   }
+   .hero-section{padding: 20px;}
+   .footer_cont{
+    flex-direction: column;
+    padding: 10px;
+    gap: 6px;
+   }
+
+   .related_deals .triplet{
+    flex-direction: column;
+   }
+
+   .related_deals .sign_up{
+    flex-direction: column;
+   }
+   .hero2,.hero1, .hero3{
+    width: auto;
+    margin: 0;
+   }
+   .search_nav_cont{
+    flex-direction: column;
+   }
+   .web_builder_cont .web_dropdown{flex-direction: column;}
+   .home-cont{
+    padding: 20px 10px;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .home-cont .home .right_arrow{display: none;}
+   .web_builder_cont{
+    padding: 20px;
+   }
+   .related_deals .sign_up .sign_up_cont input{width: auto; padding: 10px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+   .web_builder_cont .web_dropdown .right{flex-direction: column; margin-bottom: 20px;}
+   .web_builder_cont .web_dropdown {padding: 0;}
+   .related_deals .triplet .deals{padding: 0px;}
+   search_nav_cont .input_search{
+   justify-content: center;
+   }
+   .related_deals {padding: 10px;}
+   .related_deals h1{text-align: center;}
+ .search_nav_cont .input_search input{ margin-right: 20px;}
+ .web_builder_cont h1{font-size: 38px; width: auto; text-align: center;}
+ .related_deals .triplet .deals .limited_time{justify-content: center;}
+ .related_deals .triplet .deals .support{text-align: center;}
+ .related_deals .triplet .deals .prices{justify-content: center;}
+ .related_deals .triplet .deals .view-btn {width: 230px;}
+ .related_deals .sign_up h2{text-align: center;}
+   .category{
+    display: flex;
+    flex-direction: column;
+    // text-align: left;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 10px;
+}
+.contact_cont{ display: flex;
+    flex-direction: column;
+    padding: 10px;}
+}
